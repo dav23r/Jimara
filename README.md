@@ -18,7 +18,7 @@ README will be updated as we go further and the project evolves beyond the start
     ```
     git clone --recursive https://github.com/TheDonsky/Jimara.git
     ```
-5. ```Run jimara_initialize.py``` from the repository to create symbolic links that make the source visible to MSVS projects.
+5. Run ```jimara_initialize.py``` from the repository to create symbolic links that make the source visible to MSVS projects.
 6. Open ```Project/Windows/MSVS2019/Jimara.sln``` with MSVS2019.
 7. Build the solution to generate ```Jimara.lib``` files for each configuration, as well as corresponding Google Test runner executables (all stored in ```__BUILD__``` directory).
 
