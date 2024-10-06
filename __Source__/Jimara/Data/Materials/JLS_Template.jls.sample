@@ -45,7 +45,7 @@ As already stated above, this file in particular contains the spec and sort-of a
 		the actual logic may be dramatically different from that simplified assumption.
 		In any case, this is our 'vertex-processing' interface; it optionally allows displacement and lets us perform some per-vertex precalculations if necessary.
 
-. Beyond vertex-processing, lit-shaders are supposed to define multiple additional functions that will control Matrerial's interaction with light:
+. Beyond vertex-processing, lit-shaders are supposed to define multiple additional functions that will control Material's interaction with light:
 	0. JM_Init - A function, responsible for initializing the shading state, as well as [potentially] rejecting invalid/cutout fragments.
 		As an input, initialization function gets interpolated JM_FragmentData and constant JM_MaterialProperties. 
 		This is also the last function that gets direct reference to the argument-block and if there are any texture-sampling 
